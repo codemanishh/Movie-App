@@ -12,12 +12,11 @@ justify-content: center;
 align-items: center;
 }
 .search-results {
-  max-height: 400px; /* Set the maximum height for the box */
-  overflow-y: auto; /* Enable vertical scrolling */
-  border: 1px solid #ccc; /* Add a border */
-  padding: 10px; /* Add some padding */
+  max-height: 400px; 
+  overflow-y: auto; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
 }
-
 .search-list {
   list-style: none;
   padding: 0;
@@ -79,14 +78,13 @@ background:transparent;
   color: #00ffe7;
 }
 img, video{
-  margin-left: 10rem;
+  margin-left: 2rem;
   margin-top: 4rem;
   height: 75%;
 }
 .first-class{
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   padding: 33px;
-
 }
 .second-class{
   margin-top: 2px;
@@ -122,8 +120,8 @@ img, video{
  
  .input:focus, input:hover {
   outline: none;
-  border-color: rgba(234,76,137,0.4);
-  background-color: #fff;
+  /* border-color: rgba(234,76,137,0.4); */
+  /* background-color: #fff; */
   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
  }
  
@@ -138,7 +136,26 @@ img, video{
 .movie-info {
   padding: 102px;
 }
- 
+@media screen and (max-width: 600px) {
+.div2boxes{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie-poster{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.movie-info{
+  padding: 0px;
+  width: 80%;
+}
+
+
+}
  
  
  
