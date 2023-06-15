@@ -1,3 +1,4 @@
+
 input{
 background-color: #000;
 color: #fff;
@@ -44,11 +45,25 @@ align-items: center;
   background-color: #f5f5f5;
 }
 .scroll-box {
-    height: 200px;
+  height: 142px;
     overflow: auto;
     display: flex;
     justify-content: center;
-    border: 2px solid red; 
+}
+.newscroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newscroll:hover{
+background:transparent;
+}
+.scroll-box {
+background:transparent;
+}
+.search-list-item:hover{
+background:transparent;
+
 }
 .div2boxes{
   display: flex;
@@ -58,5 +73,72 @@ align-items: center;
 
 }
 .movie-info{
-    padding: 66px;
+  width: 50%;
+  padding-top: 4rem;
+  padding-right: 4rem;
+  color: #00ffe7;
 }
+img, video{
+  margin-left: 10rem;
+  margin-top: 4rem;
+  height: 75%;
+}
+.first-class{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  padding: 33px;
+
+}
+.second-class{
+  margin-top: 2px;
+}
+/* ................   */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 295px;
+  border: 1px solid white;
+    border-radius: 46px;
+ }
+ 
+ .input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  color: #0d0c22;
+  transition: .3s ease;
+  background: transparent;
+ }
+ 
+ .input::placeholder {
+  color: #000000;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: rgba(234,76,137,0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+ 
+.movie-info {
+  padding: 102px;
+}
+ 
+ 
+ 
+ 
