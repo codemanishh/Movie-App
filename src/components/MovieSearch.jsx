@@ -126,8 +126,7 @@ function MovieSearch() {
             <p className="awards">
               <b>
                 <i className="fas fa-award"></i>
-              </b>{' '}
-              {selectedMovie.Awards}
+              </b>{' '}{selectedMovie.Awards}
             </p>
           </div>
         </div>
